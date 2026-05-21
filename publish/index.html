@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card Vault | 我的球星卡收藏</title>
+    <meta name="description" content="我的 1/1 球星卡收藏展示页，陈列 Mario Götze、Harvey Elliott 与 Harry Wilson 等评级封装藏品。" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <nav class="topbar" aria-label="收藏导航">
+          <a class="brand" href="#top" aria-label="回到顶部">
+            <span class="brand-mark">1/1</span>
+            <span>Card Vault</span>
+          </a>
+          <div class="nav-actions">
+            <a href="#collection">藏品</a>
+            <button class="icon-button" id="themeToggle" type="button" aria-label="切换展柜灯光" title="切换展柜灯光">
+              <span aria-hidden="true">◐</span>
+            </button>
+          </div>
+        </nav>
+
+        <section class="hero-grid" id="top">
+          <div class="hero-copy">
+            <p class="kicker">私人球星卡主页</p>
+            <h1>我的 1/1 球星卡展柜</h1>
+            <p class="intro">
+              四张评级封装藏品集中展示：Mario Götze Padparadscha Refractor，Harvey Elliott Black Finite，以及两张 Harry Wilson 签字 1/1。
+            </p>
+            <div class="hero-stats" aria-label="收藏统计">
+              <div>
+                <strong>4</strong>
+                <span>张藏品</span>
+              </div>
+              <div>
+                <strong>4</strong>
+                <span>1/1</span>
+              </div>
+              <div>
+                <strong>2</strong>
+                <span>签字卡</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-showcase" aria-label="精选展示">
+            <button class="feature-card" type="button" data-card="0">
+              <img src="./assets/F4280016_Slabbed_1x1_FRONT.jpg" alt="Mario Götze 2023 Topps Chrome Bundesliga Sapphire Edition Padparadscha Refractor 1/1 TAG 8.5" />
+            </button>
+            <button class="feature-card secondary" type="button" data-card="1">
+              <img src="./assets/92676667-front.jpg" alt="Harvey Elliott 2023-24 Prizm Premier League Black Finite 1/1 PSA 9" />
+            </button>
+          </div>
+        </section>
+      </header>
+
+      <main>
+        <section class="section-heading" id="collection">
+          <p class="kicker">Collection</p>
+          <h2>全部藏品</h2>
+        </section>
+
+        <section class="card-wall" aria-label="全部球星卡">
+          <article class="collectible-card" data-card="0">
+            <button class="image-frame" type="button">
+              <img src="./assets/F4280016_Slabbed_1x1_FRONT.jpg" alt="Mario Götze Padparadscha Refractor 1/1" />
+            </button>
+            <div class="card-info">
+              <div>
+                <p class="player">Mario Götze</p>
+                <h3>2023 Topps Chrome Bundesliga Sapphire</h3>
+              </div>
+              <dl>
+                <div><dt>编号</dt><dd>#31</dd></div>
+                <div><dt>稀有度</dt><dd>1/1</dd></div>
+                <div><dt>评级</dt><dd>TAG 8.5</dd></div>
+                <div><dt>证书号</dt><dd>F4280016</dd></div>
+              </dl>
+            </div>
+          </article>
+
+          <article class="collectible-card" data-card="1">
+            <button class="image-frame" type="button">
+              <img src="./assets/92676667-front.jpg" alt="Harvey Elliott Black Finite 1/1" />
+            </button>
+            <div class="card-info">
+              <div>
+                <p class="player">Harvey Elliott</p>
+                <h3>2023-24 Prizm P/L Black Finite</h3>
+              </div>
+              <dl>
+                <div><dt>编号</dt><dd>#79</dd></div>
+                <div><dt>稀有度</dt><dd>1/1</dd></div>
+                <div><dt>评级</dt><dd>PSA 9</dd></div>
+                <div><dt>证书号</dt><dd>92676667</dd></div>
+              </dl>
+            </div>
+          </article>
+
+          <article class="collectible-card" data-card="2">
+            <button class="image-frame" type="button">
+              <img src="./assets/124068835-front.jpg" alt="Harry Wilson Impeccable Stars autograph platinum 1/1" />
+            </button>
+            <div class="card-info">
+              <div>
+                <p class="player">Harry Wilson</p>
+                <h3>2024-25 Impeccable P/L Stars AU-PLT</h3>
+              </div>
+              <dl>
+                <div><dt>编号</dt><dd>#ISHW</dd></div>
+                <div><dt>稀有度</dt><dd>1/1</dd></div>
+                <div><dt>评级</dt><dd>PSA 9 / Auto 10</dd></div>
+                <div><dt>证书号</dt><dd>124068835</dd></div>
+              </dl>
+            </div>
+          </article>
+
+          <article class="collectible-card" data-card="3">
+            <button class="image-frame" type="button">
+              <img src="./assets/124334311-front.jpg" alt="Harry Wilson Prizm Black Shimmer autograph 1/1" />
+            </button>
+            <div class="card-info">
+              <div>
+                <p class="player">Harry Wilson</p>
+                <h3>2024-25 Prizm P/L Sig-Black Shimmer</h3>
+              </div>
+              <dl>
+                <div><dt>编号</dt><dd>#SHW</dd></div>
+                <div><dt>稀有度</dt><dd>1/1</dd></div>
+                <div><dt>评级</dt><dd>Authentic / Auto 9</dd></div>
+                <div><dt>证书号</dt><dd>124334311</dd></div>
+              </dl>
+            </div>
+          </article>
+        </section>
+      </main>
+    </div>
+
+    <dialog class="viewer" id="viewer" aria-label="球星卡大图">
+      <button class="close-button" id="closeViewer" type="button" aria-label="关闭">×</button>
+      <div class="viewer-body">
+        <img id="viewerImage" alt="" />
+        <div class="viewer-copy">
+          <p class="player" id="viewerPlayer"></p>
+          <h2 id="viewerTitle"></h2>
+          <p id="viewerDetails"></p>
+        </div>
+      </div>
+    </dialog>
+
+    <script src="./scripts/app.js"></script>
+  </body>
+</html>
